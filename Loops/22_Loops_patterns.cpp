@@ -228,7 +228,7 @@ int main(){
         int n;
         cin >> n;
 
-        pattern2(n);   // function call
+        pattern2(n);   // can call any function over here 
         cout << endl;  // space between patterns
     }
 
