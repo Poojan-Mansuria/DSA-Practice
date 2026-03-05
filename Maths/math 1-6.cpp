@@ -74,7 +74,8 @@ int checkdigit1(int n){
     for(int i=0;i<t;i++){
         int n;
         cin>>n;
-   //call function on requirement of the code
+    //call the required function here for code
+
     return 0;
 }
   }
