@@ -28,7 +28,7 @@ void alldivisor2(int n){
     for(int i=0;i<t;i++){
         int n;
         cin>>n;
-     alldivisor2(n);
+     alldivisor(n);
 
     return 0;
 }
