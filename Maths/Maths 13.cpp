@@ -1,4 +1,5 @@
-//E
+//Euclidean Algorithm
+//gcd(a,b)=gcd(a-b,b) if a>b
 #include <bits/stdc++.h>
 using namespace std;
 
