@@ -75,7 +75,7 @@ int checkdigit1(int n){
         int n;
         cin>>n;
     //call the required function here for code
-
+    }
     return 0;
-}
+
   }
