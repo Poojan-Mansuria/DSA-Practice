@@ -19,7 +19,8 @@ int main(){
     while(q--){
         int num;
         cin>>num;
-        //Fetching
+        //Fetching hash
+        
         cout<<hash[num]<<endl;
     }
 }
