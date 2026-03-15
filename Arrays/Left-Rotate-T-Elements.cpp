@@ -21,8 +21,6 @@ void leftrotate1(vector<int>& arr, int n, int d){
     reverse(arr.begin() + d, arr.begin() + n);
     reverse(arr.begin(), arr.begin() + n);
 }
-   
-
 
 int main(){
 
