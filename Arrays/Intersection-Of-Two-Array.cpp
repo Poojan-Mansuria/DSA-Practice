@@ -20,7 +20,6 @@ vector<int> IntersectionArray(vector<int>& arr1, vector<int>& arr2){
         }
         else{
            interArr.push_back(arr1[i]);
-        
             i++;
             j++;
         }
