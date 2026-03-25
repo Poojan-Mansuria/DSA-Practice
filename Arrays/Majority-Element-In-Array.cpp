@@ -1,12 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int majorityElement(vector<int>& arr, int n)
+int majorityElement(vector<int>& arr)
 {
     int cnt = 0;
     int elem = 0;
 
-    for (int i = 0; i <arr.size(); i++)
+
+    for (int i = 0; i < arr.size(); i++)
     {
         if (cnt == 0)
         {
@@ -23,6 +24,7 @@ int majorityElement(vector<int>& arr, int n)
         }
     }
 
+
     int cnt1 = 0;
     for (int i = 0; i < arr.size(); i++)
     {
@@ -32,7 +34,7 @@ int majorityElement(vector<int>& arr, int n)
         }
     }
 
-    if (cnt1 > arr.size() / 2)
+    if (cnt1 > (int)arr.size() / 2)
     {
         return elem;
     }
@@ -52,8 +54,7 @@ int main()
         cin >> arr[i];
     }
 
-    cout<<majorityElement(arr, n);
-
+    cout << majorityElement(arr) << endl;
 
     return 0;
 }
