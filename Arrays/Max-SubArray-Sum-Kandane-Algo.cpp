@@ -1,6 +1,6 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
+
 
 long long kadane(vector<int> &arr)
 {
