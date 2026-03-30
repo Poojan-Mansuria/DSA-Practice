@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//sum of array
 
 int arraysum(int arr[], int n, int i){
 
