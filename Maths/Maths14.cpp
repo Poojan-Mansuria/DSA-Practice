@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-//Strong number
- void strongnumber(int n){
+
+void strongnumber(int n){
     int temp = n;
     int sum=0;
     while(n>0){
@@ -13,18 +13,21 @@ using namespace std;
         sum=sum+fact;
         n=n/10;
     }
+    cout << "Sum of factorials: " << sum << " Temp: " << temp << endl;
     if(sum==temp) cout<<"Strong Number"<<endl;
-    else cout<<"Number is not Strong Number"<<endl;
-  
-  }
-  int main(){
-    int t;
-    cin>>t;
-    for(int i=0;i<t;i++){
-        int n;
-        cin>>n;
-     strongnumber(n);
+    else cout<<"Not Strong Number"<<endl;
+}
 
+int main(){
+    int t;
+    cout << "Enter test cases: " << endl;
+    cin >> t;
+    
+    for(int i=0; i<t; i++){
+        cout << "Enter number: " << endl;
+        int n;
+        cin >> n;
+        strongnumber(n);
+    }
     return 0;
 }
-  }
