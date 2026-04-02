@@ -8,7 +8,7 @@ void pairRevision() {
     cout << "Normal Pair: " << p1.first << " " << p1.second << endl;
 
 
-    // 2.Pair with Different Data Types
+    // 2.Pair of Different Data Types
     pair<int, string> p2 = {10, "Poojan"};
     cout << "Different Type Pair: " << p2.first << " " << p2.second << endl;
 
